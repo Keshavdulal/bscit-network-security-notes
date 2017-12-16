@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1500px" height="1125px" enable-background="new">
+	<defs>
+	    <style type="text/css"><![CDATA[
+	        text {
+	            letter-spacing: -.02em;
+	        }
+	    ]]></style>
+        <!-- size: 120 x 150 -->
+        <g id="page" style="fill: #E7E7E7; stroke: #000000">
+            <polygon stroke-width="1" points="75,0 75,45 120,45"/>
+            <polygon stroke-width="2" points="0,0 75,0 75,45 120,45 120,150 0,150"/>
+            
+            <line id="shortLine" stroke-width="1" x1="15" y1="21.5" x2="60" y2="21.5"/>
+            <use xlink:href="#shortLine" transform="translate(0 21.5)"/>
+            
+            <line id="longLine" stroke-width="1" x1="15" y1="64.5" x2="105" y2="64.5"/>
+            <use xlink:href="#longLine" transform="translate(0 21.5)"/>
+            <use xlink:href="#longLine" transform="translate(0 43)"/>
+            <use xlink:href="#longLine" transform="translate(0 64.5)"/>
+            <use xlink:href="#longLine" transform="translate(0 86)"/>
+        </g>
+        
+        <!-- size: 88 x 110 -->
+        <g id="smallPage" style="fill: #E7E7E7; stroke: #000000">
+            <rect stroke-width="2" width="88" height="110"/>
+            
+            <line id="longLine2" stroke-width="1" x1="11" y1="15.5" x2="77" y2="15.5"/>
+            <use xlink:href="#longLine2" transform="translate(0 15.5)"/>
+            <use xlink:href="#longLine2" transform="translate(0 31)"/>
+            <use xlink:href="#longLine2" transform="translate(0 46.5)"/>
+            <use xlink:href="#longLine2" transform="translate(0 62)"/>
+            <use xlink:href="#longLine2" transform="translate(0 77.5)"/>
+        </g>
+        
+        <!-- size: 200 x 50 -->
+        <g id="strip">
+            <rect fill="#E7E7E7" stroke="#000000" stroke-width="2" width="200" height="50"/>
+        </g>
+        
+        <g id="hash">
+            <use xlink:href="#strip"/>
+            <text fill="#000000" text-anchor="middle" font-family="DejaVu Sans" font-size="26" style="letter-spacing: -.05em" x="100" y="34">101100110101</text>
+        </g>
+        
+        <!-- size: 28 x 37 -->
+        <g id="lock">
+            <path fill="#FFFFFF" stroke="#000000" stroke-width="5" d="M5,0 l0,-6 a8.5,8.5 0 0,1 17,0 l0,6" transform="translate(0 15)"/>
+            <rect fill="#000000" y="15" width="28" height="22"/>
+        </g>
+        
+        <g id="signature">
+            <use xlink:href="#strip"/>
+            <use xlink:href="#lock" x="-14" y="7"/>
+            <text fill="#000000" text-anchor="middle" font-family="DejaVu Sans" font-size="25" style="letter-spacing: -.05em" x="104" y="34">111101101110</text>
+        </g>
+        
+        <!-- size: 60 x 222.5 -->
+        <g id="ribbon">
+            <polygon fill="#FFFFFF" stroke="#000000" stroke-width="3.33" transform="scale(0.6 0.6)" points="92.447,136.964 53.47,22.669 14.487,136.964 53.47,109.421 "/>
+            <polygon fill="#FFFFFF" stroke="#000000" stroke-width="3.33" transform="scale(0.6 0.6)" points="53.468,3.479 59.672,16.464 69.76,6.198 71.411,20.493 
+                84.284,14.058 81.205,28.114 95.469,26.21 87.992,38.505 102.104,41.333 91.041,50.536 103.467,57.792 90.015,62.905 99.413,73.804 
+                85.031,74.272 90.38,87.63 76.626,83.401 77.346,97.772 65.71,89.308 61.725,103.134 53.468,91.351 45.21,103.134 41.227,89.308 
+                29.59,97.772 30.313,83.401 16.556,87.63 21.908,74.269 7.522,73.804 16.92,62.905 3.467,57.792 15.896,50.536 4.834,41.333 
+                18.944,38.505 11.466,26.21 25.729,28.114 22.651,14.058 35.524,20.493 37.178,6.198 47.265,16.464 "/>
+        </g>
+        
+        <g id="ribbonPage">
+            <use xlink:href="#page"/>
+            <use xlink:href="#ribbon" transform="translate(9 89)"/>
+        </g>
+        
+        <g id="smallRibbonPage">
+            <use xlink:href="#smallPage"/>
+            <use xlink:href="#ribbon" transform="scale(0.88 0.88) translate(9 63)"/>
+        </g>
+        
+        <!-- size: 162 x 124 -->
+        <g id="arrowRight">
+            <path fill="#FFFFFF" stroke="#000000" stroke-width="2" d="M0,27 l100,0 l0,-27 l62,62 l-62,62 l0,-27 l-100,0 z"/>
+        </g>
+        
+        <!-- size: 171 x 130 -->
+        <g id="arrowDown">
+            <path fill="#FFFFFF" stroke="#000000" stroke-width="2" d="M32,0 l0,80 l-32,0 l85.5,50 l85.5,-50 l-32,0 l0,-80 z"/>
+        </g>
+        
+        <!-- size: 241 x 188 -->
+        <g id="largeArrowDown">
+            <path fill="#FFFFFF" stroke="#000000" stroke-width="2" d="M44,0 l0,115 l-44,0 l120.5,73 l120.5,-73 l-44,0 l0,-115 z"/>
+        </g>
+        
+        <!-- size 50 x 20 -->
+        <g id="key" style="fill: none; stroke: #000000; stroke-width: 4.5; stroke-linecap: square">
+            <line x1="0" y1="10" x2="30" y2="10"/>
+            <line x1="0" y1="10" x2="0" y2="22"/>
+            <line x1="11" y1="10" x2="11" y2="22"/>
+            <circle r="10" cx="40" cy="10"/>
+        </g>
+        
+        <g id="largeArrowDownKey">
+            <use xlink:href="#largeArrowDown"/>
+            <use xlink:href="#key" transform="translate(95 122)"/>
+        </g>
+	</defs>
+    
+    <g style="text-anchor: middle">
+        <g transform="translate(68 130)">
+            <g>
+                <use xlink:href="#page"/>
+                <text fill="#000000" font-family="DejaVu Sans" font-size="26" x="60" y="188">Data</text>
+            </g>
+            
+            <g transform="translate(155 17.5)">
+                <use xlink:href="#arrowRight"/>
+                <text fill="#000000" font-family="DejaVu Sans" font-size="22.5" transform="translate(63 57)">
+                    <tspan x="0">Hash</tspan>
+                    <tspan x="0" y="25">function</tspan>
+                </text>
+            </g>
+            
+            <g transform="translate(346 54)">
+                <use xlink:href="#hash"/>
+                <text fill="#000000" font-family="DejaVu Sans" font-size="26" x="100" y="88">Hash</text>
+            </g>
+            
+            <g transform="translate(325 173)">
+                <use xlink:href="#largeArrowDownKey"/>
+                <text fill="#000000" font-family="DejaVu Sans" font-size="21" transform="translate(122 40)">
+                    <tspan x="0">Encrypt hash</tspan>
+                    <tspan x="0" y="25">using signer's</tspan>
+                    <tspan x="0" y="50">private key</tspan>
+                </text>
+            </g>
+            
+            <g transform="translate(346 392)">
+                <use xlink:href="#signature"/>
+                <text fill="#000000" font-family="DejaVu Sans" font-size="26" x="100" y="88">Signature</text>
+            </g>
+            
+            <g transform="translate(157 320)">
+                <use xlink:href="#smallRibbonPage"/>
+                <text fill="#000000" font-family="DejaVu Sans" font-size="26" x="44" y="162">Certificate</text>
+            </g>
+            
+            <g transform="translate(340 485)">
+                <path fill="none" stroke="#000000" stroke-width="4" d="M0,92 C0,0 237,92 237,0"/>
+                <path fill="none" stroke="#000000" stroke-width="4" stroke-dasharray="13.5,7" d="M0,92 C0,0 -237,92 -237,0"/>
+            </g>
+            
+            <g transform="translate(254 600)">
+                <use xlink:href="#arrowDown"/>
+                <text fill="#000000" font-family="DejaVu Sans" font-size="24" transform="translate(86 40)">
+                    <tspan x="0">Attach</tspan>
+                    <tspan x="0" y="28">to data</tspan>
+                </text>
+            </g>
+            
+            <g transform="translate(280 755)">
+                <use xlink:href="#ribbonPage"/>
+                <text fill="#000000" font-family="DejaVu Sans" font-size="26" x="60" y="205">Digitally signed data</text>
+            </g>
+        </g>
+        
+        <g transform="translate(802 145)">
+            <g transform="translate(240 0)">
+                <use xlink:href="#ribbonPage"/>
+                <text fill="#000000" font-family="DejaVu Sans" font-size="26" x="60" y="205">Digitally signed data</text>
+            </g>
+            
+            <g transform="translate(108 208)">
+                <line stroke="#000000" stroke-width="4" x1="50" y1="0" x2="0" y2="50"/>
+            </g>
+            
+            <g transform="translate(444 208)">
+                <line stroke="#000000" stroke-width="4" x1="0" y1="0" x2="50" y2="50"/>
+            </g>
+            
+            <g transform="translate(38 282)">
+                <use xlink:href="#page"/>
+                <text fill="#000000" font-family="DejaVu Sans" font-size="26" x="60" y="188">Data</text>
+            </g>
+            
+            <g transform="scale(0.95 0.95) translate(18 522)">
+                <use xlink:href="#arrowDown"/>
+                <text fill="#000000" font-family="DejaVu Sans" font-size="24" transform="translate(86 40)">
+                    <tspan x="0">Hash</tspan>
+                    <tspan x="0" y="28">function</tspan>
+                </text>
+            </g>
+            
+            <g transform="translate(0 652)">
+                <use xlink:href="#hash"/>
+                <text fill="#000000" font-family="DejaVu Sans" font-size="26" x="100" y="88">Hash</text>
+            </g>
+            
+            <g transform="translate(405 292)">
+                <use xlink:href="#signature"/>
+                <text fill="#000000" font-family="DejaVu Sans" font-size="26" x="100" y="88">Signature</text>
+            </g>
+            
+            <g transform="translate(385 422)">
+                <use xlink:href="#largeArrowDownKey"/>
+                <text fill="#000000" font-family="DejaVu Sans" font-size="21" transform="translate(122 40)">
+                    <tspan x="0">Decrypt</tspan>
+                    <tspan x="0" y="25">using signer's</tspan>
+                    <tspan x="0" y="50">public key</tspan>
+                </text>
+            </g>
+            
+            <g transform="translate(405 652)">
+                <use xlink:href="#hash"/>
+                <text fill="#000000" font-family="DejaVu Sans" font-size="26" x="100" y="88">Hash</text>
+            </g>
+            
+            <g transform="translate(300 664)">
+                <line stroke="#000000" stroke-width="7" x1="-32" y1="0" x2="32" y2="0"/>
+                <line stroke="#000000" stroke-width="7" x1="-32" y1="24" x2="32" y2="24"/>
+                <text fill="#000000" font-family="DejaVu Sans" font-size="40" y="-20">?</text>
+            </g>
+            
+            <g transform="translate(300 830)">
+                <text fill="#000000" font-family="DejaVu Sans" font-size="25">If the hashes are equal, the signature is valid.</text>
+            </g>
+        </g>
+        
+        <line stroke="#000000" stroke-width="1" x1="730" y1="0" x2="730" y2="1125"/>
+        
+        <text fill="#000000" font-family="DejaVu Sans" font-size="50" x="380" y="85">Signing</text>
+        <text fill="#000000" font-family="DejaVu Sans" font-size="50" x="1095" y="85">Verification</text>
+    </g>
+</svg>
