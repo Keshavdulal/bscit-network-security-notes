@@ -12,70 +12,6 @@ build-lists: true
 ## Unit 4
 #[fit] Transport Level Security
 
-<!-- --- -->
-<!-- ![inline](../../commonSlideImages/ns/mondayMemes/sam.gif) -->
-
-<!-- --- -->
-<!-- #[fit] Results -->
-
-<!-- --- -->
-<!-- ![inline](../../commonSlideImages/ns/t1-pass-fail.png) -->
-
-<!-- --- -->
-<!-- ![inline](../../commonSlideImages/ns/t1-pass-fail-abs.png) -->
-
-<!-- ---
-# [fit] Good job 👍🏻
-
----
-# [fit] Hustle more 📚 👓 👩‍💻 🏃
-
----
-# [fit]🎁 Something 🎁
-
----
-## A question by Kagmandu Magzine
-# How much do you want to live ?
-
----
-# How much i can live ?
-
----
-# Nepal's life expectancy
-
----
-![fill](../../commonSlideImages/ns/le1.png)
-
----
-![fill](../../commonSlideImages/ns/le2.png)
-
----
-**Life Used:**
-$$ 🔥 = \frac{YourAge * 100}{70} $$
-
-**Life Remaining:**
-$$ 🔋 = \frac{(70 - YourAge) * 100}{70} $$
-
----
-#[fit] ~70%
-
----
-### [fit]🔥 = 30%
-### [fit]🔋 = 70%
-
----
-# Life is too short...
-# ...
-
----
-# Life is too short...
-# ...to mess around
- -->
-
-<!-- ---
-## Unit 4
-#[fit] Transport Level Security -->
-
 ---
 # Topics
 1. Web Security Issues
@@ -88,28 +24,10 @@ $$ 🔋 = \frac{(70 - YourAge) * 100}{70} $$
 #[fit] 4.1 *Web Security* Issues
 
 ---
-#[fit] How many of you use web ?
-![fit](../../commonSlideImages/ns/secure.png)
+![fill](./images/16/secure-focused.png)
 
 ---
-# How many of you use web
-# & still feel secure on web ?
-# 👮
-
----
-# Why do you feel secure ?
-
----
-![fill](../../commonSlideImages/ns/secure-focused.png)
-
----
-![inline](../../commonSlideImages/ns/https-google.png)
-
----
-# [fit]http**s**://
-
----
-# [fit]http://
+![inline](./images/16/https-google.png)
 
 ---
 # [fit] http:// ⚔️ https://
@@ -138,7 +56,7 @@ $$ 🔋 = \frac{(70 - YourAge) * 100}{70} $$
 
 ---
 # Client Server Architecture
-![inline fit](../../commonSlideImages/csa.png)
+![inline fit](./images/16/csa.png)
 
 ---
 # 3 Locations for attack
@@ -154,35 +72,15 @@ $$ 🔋 = \frac{(70 - YourAge) * 100}{70} $$
 
 ---
 # OSI **Reference** Model
+![fit](./images/16/osi-infographics.png)
 
 ---
-![fit](../../commonSlideImages/osi.png)
+![fit](./images/16/osi-infographics.png)
 
 ---
-![fit](../../commonSlideImages/osi-infographics.png)
+![inline](./images/16/https-google.png)
 
----
-![fit](../../commonSlideImages/osi-infographics-transport-highlight.png)
-
----
-![fit](../../commonSlideImages/osi-infographics-transport-and-other-2.png)
-
----
-![inline](../../commonSlideImages/ns/https-google.png)
-
-![inline](../../commonSlideImages/ns/http-bbc.png)
-
----
-![fit](../../commonSlideImages/ns/https-wikipedia.png)
-
-
----
-![fit](../../commonSlideImages/tcpip.png)
-
-<!-- --- -->
-<!-- #[fit] A *Monday* is not complete without a *Monday* meme -->
-
-<!-- ![inline](../../commonSlideImages/ns/mondayMemes/1.jpg) -->
+![inline](./images/16/http-bbc.png)
 
 ---
 # SSL History
@@ -200,7 +98,7 @@ $$ 🔋 = \frac{(70 - YourAge) * 100}{70} $$
 
 ---
 # SSL Architecture
-![inline](../../commonSlideImages/ns/fig-16.2.png)
+![inline](./images/16/fig-16.2.png)
 
 ---
 # SSL Architecture
@@ -218,7 +116,7 @@ $$ 🔋 = \frac{(70 - YourAge) * 100}{70} $$
 
 ---
 <!-- # Operation (6 Steps) -->
-![inline](../../commonSlideImages/ns/fig-16.3.png)
+![inline](./images/16/fig-16.3.png)
 
 ---
 # Operation (6 Steps)
@@ -231,7 +129,7 @@ $$ 🔋 = \frac{(70 - YourAge) * 100}{70} $$
 
 ---
 <!-- # 6. Add SSL Record Header -->
-![inline](../../commonSlideImages/ns/fig-16.4.png)
+![inline](./images/16/fig-16.4.png)
 
 ---
 # SSL Record Header
@@ -247,7 +145,7 @@ $$ 🔋 = \frac{(70 - YourAge) * 100}{70} $$
 - 3. The Handshake Protocol
 
 ---
-![inline](../../commonSlideImages/ns/fig-16.5.png)
+![inline](./images/16/fig-16.5.png)
 
 ---
 # 1. The Change Cipher Spec Protocol
@@ -258,7 +156,7 @@ $$ 🔋 = \frac{(70 - YourAge) * 100}{70} $$
 
 <!-- - Copies Pending State to the Current State -->
 
-![fit right](../../commonSlideImages/ns/fig-16.5.a.png)
+![fit right](./images/16/fig-16.5.a.png)
 
 ---
 # 2. Alert Protocol
@@ -269,7 +167,7 @@ $$ 🔋 = \frac{(70 - YourAge) * 100}{70} $$
 	- Fatal
 - Alert code for specific alert
 
-![fit right](../../commonSlideImages/ns/fig-16.5.b.png)
+![fit right](./images/16/fig-16.5.b.png)
 
 ---
 # 3. Handshake Protocol
@@ -278,11 +176,11 @@ $$ 🔋 = \frac{(70 - YourAge) * 100}{70} $$
 - *Length* (3B) indicates length of message in Bytes
 - *Content* (>=0B) indicates the parameters associated with the messages
 
-![fit right](../../commonSlideImages/ns/fig-16.5.c.png)
+![fit right](./images/16/fig-16.5.c.png)
 
 ---
 <!-- ### SSL HandShake Protocol Message Types -->
-![inline](../../commonSlideImages/ns/table-16.2.png)
+![inline](./images/16/table-16.2.png)
 
 ---
 # 4 Phases of SSL Handshake
@@ -292,20 +190,20 @@ $$ 🔋 = \frac{(70 - YourAge) * 100}{70} $$
 4. Finish
 
 ---
-![fit](../../commonSlideImages/ns/fig-16.6.png)
+![fit](./images/16/fig-16.6.png)
 
 
 ---
-![fit](../../commonSlideImages/ns/fig-16.6.1.png)
+![fit](./images/16/fig-16.6.1.png)
 
 ---
-![fit](../../commonSlideImages/ns/fig-16.6.2.png)
+![fit](./images/16/fig-16.6.2.png)
 
 ---
-![fit](../../commonSlideImages/ns/fig-16.6.3.png)
+![fit](./images/16/fig-16.6.3.png)
 
 ---
-![fit](../../commonSlideImages/ns/fig-16.6.4.png)
+![fit](./images/16/fig-16.6.4.png)
 
 ---
 # Transport Layer Security (TLS)

@@ -40,30 +40,30 @@ BTEC Faculty @SNC -->
 
 ---
 #Course Content
-	1. Introduction
-	2. Key Management and Distribution
-	3. User Authentication Protocols
-	4. Transport Level Security
-	5. Wireless Network Security
-	6. Electronic Mail Security
+1. Introduction
+2. Key Management and Distribution
+3. User Authentication Protocols
+4. Transport Level Security
+5. Wireless Network Security
+6. Electronic Mail Security
 
 ---
 ##Unit 1 - Introduction to Network Security
-	Computer Security Concepts
-	The OSI Security Architecture
-	Security Attacks
-	Security Services
-	Security Mechanisms
-	A Model for Network Security
+Computer Security Concepts
+The OSI Security Architecture
+Security Attacks
+Security Services
+Security Mechanisms
+A Model for Network Security
 
 ---
 # Computer Security Concepts
 
 ---
 # Computer Security Concepts
-	A Definition of Computer Security
-	CIA Triad
-	The Challenges of Computer Security
+A Definition of Computer Security
+CIA Triad
+The Challenges of Computer Security
 
 ---
 # Definition - Computer Security
@@ -159,11 +159,11 @@ Any action that compromises the security of information owned by an organization
 ---
 # Security Attacks
 1. Passive Attacks
-	- A passive attack attempts to learn or make use of information from the system but does not affect system or its  resources.
-	- Difficult to detect as they do not involve alteration of data.
-	- Preventable to some extent using encryption.
+- A passive attack attempts to learn or make use of information from the system but does not affect system or its  resources.
+- Difficult to detect as they do not involve alteration of data.
+- Preventable to some extent using encryption.
 2. Active Attacks
-	- An active attack attempts to alter system resources or affect their operation.
+- An active attack attempts to alter system resources or affect their operation.
 
 ---
 # Passive Attacks
@@ -229,8 +229,8 @@ Replay involves the passive capture of a data unit and its subsequent retransmis
 ---
 # The OSI Security Architecture:
 1. Security Attacks (2) ✅
-	- Passive Attacks ✓
-	- Active Attacks ✓
+- Passive Attacks ✓
+- Active Attacks ✓
 2. Security Services (5)
 3. Security Mechanisms (8)
 
@@ -276,13 +276,13 @@ A processing or communication service that enhances the security of the data pro
 <!-- Daily Assignment - D1 -->
 # Data Confidentiality
 - Connection Confidentiality
-	The protection of all user data on a connection.
+The protection of all user data on a connection.
 - Connectionless Confidentiality
-	The protection of all user data in a single data block
+The protection of all user data in a single data block
 - Selective-Field Confidentiality
-	The confidentiality of selected fields within the user data on a connection.
+The confidentiality of selected fields within the user data on a connection.
 - Traffic-Flow Confidentiality
-	The protection of the information that might be derived from observation of traffic flows.
+The protection of the information that might be derived from observation of traffic flows.
 
 ---
 # 4. Data Integrity Service
@@ -298,11 +298,11 @@ Thus, when a message is sent, the receiver can prove that the alleged sender in 
 # The OSI Security Architecture:
 1. Security Attacks (2) ✅
 2. Security Services (5) ✅
-	- Authentication Services ✓
-	- Access Control Services ✓
-	- Data Confidentiality Services ✓
-	- Data Integrity Services ✓
-	- Nonrepudiation Services ✓
+- Authentication Services ✓
+- Access Control Services ✓
+- Data Confidentiality Services ✓
+- Data Integrity Services ✓
+- Nonrepudiation Services ✓
 3. Security Mechanisms (8)
 
 ---
@@ -410,10 +410,10 @@ Deals with requests from mechanisms, such as event handling and management funct
 ---
 ## All the techniques for providing security have two components:
 1. Encryption - A security-related transformation on the information to be sent.
-	- Examples include the encryption of the message, which scrambles the message so that it is unreadable by the opponent, and the addition of a code based on the contents of the message, which can be used to verify the identity of the sender.
+- Examples include the encryption of the message, which scrambles the message so that it is unreadable by the opponent, and the addition of a code based on the contents of the message, which can be used to verify the identity of the sender.
 
 2. Information - Some secret information shared by the two principals and, it is hoped, unknown to the opponent.
-	- An example is an encryption key used in conjunction with the transformation to scramble the message before transmission and unscramble it on reception.
+- An example is an encryption key used in conjunction with the transformation to scramble the message before transmission and unscramble it on reception.
 
 ---
 ![fill](./images/modelNWSecurity.png)
