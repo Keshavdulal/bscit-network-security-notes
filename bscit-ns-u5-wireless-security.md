@@ -1,7 +1,7 @@
-footer: *NS-U4-WIRELESS-NW-SEC*
-slidenumbers: true
-autoscale: true
-build-lists: true
+<!-- footer: *NS-U4-WIRELESS-NW-SEC* -->
+<!-- slidenumbers: true -->
+<!-- autoscale: true -->
+<!-- build-lists: true -->
 
 # BSCIT
 # Network Security

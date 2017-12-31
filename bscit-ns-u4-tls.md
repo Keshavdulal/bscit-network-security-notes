@@ -1,7 +1,7 @@
-footer: *Network Security*
-slidenumbers: true
-autoscale: true
-build-lists: true
+<!-- footer: *Network Security* -->
+<!-- slidenumbers: true -->
+<!-- autoscale: true -->
+<!-- build-lists: true -->
 
 # BSCIT
 # Network Security

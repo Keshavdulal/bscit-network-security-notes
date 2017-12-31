@@ -1,6 +1,6 @@
-footer: *Network Security*
-slidenumbers: true
-autoscale: true
+<!-- footer: *Network Security* -->
+<!-- slidenumbers: true -->
+<!-- autoscale: true -->
 
 # UNIT 2
 # Key Management and Distribution

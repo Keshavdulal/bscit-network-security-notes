@@ -1,6 +1,6 @@
-footer: *Network Security*
-slidenumbers: true
-autoscale: true
+<!-- footer: *Network Security* -->
+<!-- slidenumbers: true -->
+<!-- autoscale: true -->
 
 ## **Unit 3**
 # User Authentication Protocols
