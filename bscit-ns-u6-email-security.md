@@ -1,44 +1,42 @@
-footer: *NS-U4-WIRELESS-NW-SEC*
-slidenumbers: true
-autoscale: true
-build-lists: true
+<!--footer: *NS-U4-WIRELESS-NW-SEC*-->
+<!--slidenumbers: true-->
+<!--autoscale: true-->
+<!--build-lists: true-->
 
-# BSCIT
-# Network Security
-# Unit 6
+<!--# BSCIT-->
+<!--# Network Security-->
+<!--# Unit 6-->
+<!--# Electronic Mail Security-->
+
+### Unit 6
 # Electronic Mail Security
 
----
-## Unit 6
-#[fit] Electronic Mail Security
-
-<!-- --- -->
-<!-- ![fit](./images/17/17-key-points.png) -->
-
-<!-- List of Images first -->
-<!-- ![fit](../../commonSlideImages/) -->
+![fit](./images/17/17-key-points.png)
 
 ---
-# 3 Topics
+### Topics
 1. Pretty Good Privacy (PGP)
 2. S/MIME
 3. Domain Keys Identified Mail (DKIM)
 
 ---
 # 1. Pretty Good Privacy (PGP)
+
 - Authentication -> SHA/RSA
 - Confidentiality -> DES / Diffie Hellman
 - Compression
 - E-mail Compatibility -> Radix64
 
+![fit](./images/18/18.1.table.png)
+
 ---
 # 2. S/MIME (Secure MIME)
-<!-- - RFC 5322
+
 - Multipurpose Internet Mail Extensions
 - S/MIME Functionality
 - S/MIME Messages
 - S/MIME Certificate Processing
-- Enhanced Security Services -->
+- Enhanced Security Services
 - Multipurpose Internet Mail Extensions
 	- Allowed media types to be encoded in emails
 - S/MIME is very similar to PGP.
@@ -101,44 +99,10 @@ DomainKeys Identified Mail (DKIM) is a specification for cryptographically signi
 DKIM allows good senders to prove that they did send a particular message and to prevent forgers from masquerading as good senders.
 
 ---
-<!-- # DKIM Functional Flow -->
+
+# DKIM Functional Flow
 
 ![fit inline](./images/18/18.10.png)
-
-<!-- --- -->
-<!-- ![fit](./images/18/18-key-points.png) -->
-
-<!-- --- -->
-<!-- # 1. Pretty Good Privacy (PGP) -->
-
-<!-- --- -->
-<!-- ![fit](./images/18/18.1.table.png) -->
-
-<!-- --- -->
-<!-- # General Format of PGP Message -->
-
-<!-- --- -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <!--
 ![fit](./images/18/18-key-points.png)
