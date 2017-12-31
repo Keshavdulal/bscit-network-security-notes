@@ -67,6 +67,8 @@ build-lists: true
 - List and explain the 5 steps involved in IEEE 802.11i phases of operation.
 - Briefly explain the WAP architecture along with its 5 layers.
 
+---
+# 6. 
 
 
 
