@@ -127,14 +127,3 @@ DKIM allows good senders to prove that they did send a particular message and to
 ![fit](./images/18/18.7.table.png)
 ![fit](./images/18/18.8.table.png)
 -->
-
-
-
-
-
-
-
-
-
-
-

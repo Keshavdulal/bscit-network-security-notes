@@ -1,10 +1,10 @@
-footer: *Network Security*
-slidenumbers: true
-autoscale: true
-build-lists: true
+<!-- footer: *Network Security* -->
+<!-- slidenumbers: true -->
+<!-- autoscale: true -->
+<!-- build-lists: true -->
 
-# BSCIT
-# Network Security
+### BSCIT
+## Network Security
 # Model Questions
 
 ---
@@ -68,19 +68,17 @@ build-lists: true
 - Briefly explain the WAP architecture along with its 5 layers.
 
 ---
-# 6. 
+# 6. Email security
+- What is Pretty Good Privacy (PGP)?
+- Explain the features provided by PGP.
+- Explain Internet Mail Architecture with relevant diagram.
+- What is Secure MIME ? Explain in the context of email security.
+- Explain the use of Domain Keys Identified Mail (DKIM) in email security.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
+# 7. IP Security (IPSec)
+- What is IP Security ? List the benefits of using IP Security?
+- What are the Applications of IP Security.
+- What are the Services provided by IP Security.
+- Explain the Transport Mode of operation of IP Security with relevant diagrams.
+- Explain the Tunnel Mode of operation of IP Security with relevant diagrams.
