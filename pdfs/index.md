@@ -1,4 +1,5 @@
 1. [Introduction](https://keshavdulal.github.io/bscit-network-security-notes/pdf/bscit-ns-u1-intro.pdf)
+1. [Introduction](https://github.com/Keshavdulal/bscit-network-security-notes/blob/master/pdfs/bscit-ns-u1-intro.pdf)
 1. [Key Management](https://keshavdulal.github.io/bscit-network-security-notes/pdf/bscit-ns-u2-key-mgmt.pdf)
 1. [User Authentication Protocols](https://keshavdulal.github.io/bscit-network-security-notes/pdf/bscit-ns-u3-user-auth.pdf)
 1. [Transport Layer Security](https://keshavdulal.github.io/bscit-network-security-notes/pdf/bscit-ns-u4-tls.pdf)
