@@ -1,14 +1,11 @@
-<!-- footer: *Network Security* -->
-<!-- slidenumbers: true -->
-<!-- autoscale: true -->
-
-# Network Security
+footer: *Network Security*
+slidenumbers: true
+autoscale: true
 
 ---
 # Network Security
-<!-- ## Keshav Dulal -->
-#### 👤 *keshav.dulal*
-#### ✉️ *keshav.dulal@gmail.com*
+## Keshav Dulal
+#### *keshavdulal.com.np*
 
 <!-- ---
 #Keshav Dulal
@@ -51,26 +48,30 @@ BTEC Faculty @SNC -->
 
 ---
 ##Unit 1 - Introduction to Network Security
-Computer Security Concepts
-The OSI Security Architecture
-Security Attacks
-Security Services
-Security Mechanisms
-A Model for Network Security
+1. Computer Security Concepts
+1. The OSI Security Architecture
+    - Security Attacks
+    - Security Services
+    - Security Mechanisms
+1. A Model for Network Security
 
 ---
 # Computer Security Concepts
 
 ---
 # Computer Security Concepts
-A Definition of Computer Security
-CIA Triad
-The Challenges of Computer Security
+1. A Definition of Computer Security
+1. CIA Triad
+1. The Challenges of Computer Security
 
 ---
 # Definition - Computer Security
 *The protection afforded to an automated information system in order to attain the applicable objectives of preserving the integrity, availability, and confidentiality of information system resources (includes hardware, software, firmware, information data, and telecommunications).*
 - The NIST *Computer Security Handbook* [NIST95]
+
+---
+# Cryptography & Network Security (5th Edition)
+> by William Stallings & Prentice Hall
 
 ---
 #CIA TRIAD
@@ -115,21 +116,48 @@ The property of being genuine and being able to be verified and trusted; confide
 The security goal that generates the requirement for actions of an entity to be traced uniquely to that entity. This supports nonrepudiation, deterrence, fault isolation, intrusion detection and prevention, and after-action recovery and legal action. Because truly secure systems are not yet an achievable goal, we must be able to trace a security breach to a responsible party. Systems must keep records of their activities to permit later forensic analysis to trace security breaches or to aid in transaction disputes.
 
 ---
-<!-- Daily Assignment - D1 -->
-*Daily Assignment*
+<!-- *Daily Assignment* -->
 ## The challenges of computer security
 
 ---
-1. Security is not as simple as it might first appear to the novice. The requirements seem to be straightforward; indeed, most of the major requirements for security services can be given self-explanatory, one-word labels: confidentiality, authentication, nonrepudiation, or integrity. But the mechanisms used to meet those requirements can be quite complex, and understanding them may involve rather subtle reasoning.
-2. In developing a particular security mechanism or algorithm, one must always consider potential attacks on those security features. In many cases, successful attacks are designed by looking at the problem in a completely different way, therefore exploiting an unexpected weakness in the mechanism.
-3. Because of point 2, the procedures used to provide particular services are often counterintuitive.Typically, a security mechanism is complex, and it is not obvious from the statement of a particular requirement that such elaborate measures are needed. It is only when the various aspects of the threat are considered that elaborate security mechanisms make sense.
-4. Having designed various security mechanisms, it is necessary to decide where to use them. This is true both in terms of physical placement (e.g., at what points in a network are certain security mechanisms needed) and in a logical sense [e.g., at what layer or layers of an architecture such as TCP/IP (Transmission Control Protocol/Internet Protocol) should mechanisms be placed].
-5. Security mechanisms typically involve more than a particular algorithm or protocol. They also require that participants be in possession of some secret information (e.g., an encryption key), which raises questions about the creation, distribution, and protection of that secret information. There also may be a reliance on communications protocols whose behavior may complicate the task of developing the security mechanism. For example, if the proper functioning of the security mechanism requires setting time limits on the transit time of a message from sender to receiver, then any protocol or network that introduces variable, unpredictable delays may render such time limits meaningless.
-6. Computer and network security is essentially a battle of wits between a perpetrator who tries to find holes and the designer or administrator who tries to close them. The great advantage that the attacker has is that he or she need only find a single weakness, while the designer must find and eliminate all weaknesses to achieve perfect security.
-7. There is a natural tendency on the part of users and system managers to perceive little benefit from security investment until a security failure occurs.
-8. Security requires regular, even constant, monitoring, and this is difficult in today’s short-term, overloaded environment.
-9. Security is still too often an afterthought to be incorporated into a system after the design is complete rather than being an integral part of the design process.
-10. Many users and even security administrators view strong security as an impediment to efficient and user-friendly operation of an information system or use of information.
+# 1
+ Security is not as simple as it might first appear to the novice. The requirements seem to be straightforward; indeed, most of the major requirements for security services can be given self-explanatory, one-word labels: confidentiality, authentication, nonrepudiation, or integrity. But the mechanisms used to meet those requirements can be quite complex, and understanding them may involve rather subtle reasoning.
+
+---
+# 2
+In developing a particular security mechanism or algorithm, one must always consider potential attacks on those security features. In many cases, successful attacks are designed by looking at the problem in a completely different way, therefore exploiting an unexpected weakness in the mechanism.
+
+---
+# 3
+Because of point 2, the procedures used to provide particular services are often counterintuitive.Typically, a security mechanism is complex, and it is not obvious from the statement of a particular requirement that such elaborate measures are needed. It is only when the various aspects of the threat are considered that elaborate security mechanisms make sense.
+
+---
+# 4
+Having designed various security mechanisms, it is necessary to decide where to use them. This is true both in terms of physical placement (e.g., at what points in a network are certain security mechanisms needed) and in a logical sense [e.g., at what layer or layers of an architecture such as TCP/IP (Transmission Control Protocol/Internet Protocol) should mechanisms be placed].
+
+---
+# 5
+Security mechanisms typically involve more than a particular algorithm or protocol. They also require that participants be in possession of some secret information (e.g., an encryption key), which raises questions about the creation, distribution, and protection of that secret information. There also may be a reliance on communications protocols whose behavior may complicate the task of developing the security mechanism. For example, if the proper functioning of the security mechanism requires setting time limits on the transit time of a message from sender to receiver, then any protocol or network that introduces variable, unpredictable delays may render such time limits meaningless.
+
+---
+# 6
+Computer and network security is essentially a battle of wits between a perpetrator who tries to find holes and the designer or administrator who tries to close them. The great advantage that the attacker has is that he or she need only find a single weakness, while the designer must find and eliminate all weaknesses to achieve perfect security.
+
+---
+#7
+There is a natural tendency on the part of users and system managers to perceive little benefit from security investment until a security failure occurs.
+
+---
+#8
+Security requires regular, even constant, monitoring, and this is difficult in today’s short-term, overloaded environment.
+
+---
+# 9
+Security is still too often an afterthought to be incorporated into a system after the design is complete rather than being an integral part of the design process.
+
+---
+#10 
+Many users and even security administrators view strong security as an impediment to efficient and user-friendly operation of an information system or use of information.
 
 ---
 ## D2 - Agendas
