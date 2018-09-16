@@ -15,4 +15,4 @@
 
 #### [Additional Resources](https://keshavdulal.github.io/bscit-network-security-notes/bscit-ns-Additional%20Resources)
 
-### [Download PDF Notes Here](https://keshavdulal.github.io/bscit-network-security-notes/pdf/)
+### [Download PDF Notes Here](https://keshavdulal.github.io/bscit-network-security-notes/pdfs/)
