@@ -14,3 +14,4 @@
 1. [Cyber Security]()
 
 ## [Model Questions](https://github.com/Keshavdulal/bscit-network-security-notes/blob/master/model-questions.md)
+#### [Additional Resources](https://github.com/Keshavdulal/bscit-network-security-notes/blob/master/bscit-ns-Additional%20Resources.md)
