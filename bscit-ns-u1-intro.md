@@ -144,11 +144,11 @@ Security mechanisms typically involve more than a particular algorithm or protoc
 Computer and network security is essentially a battle of wits between a perpetrator who tries to find holes and the designer or administrator who tries to close them. The great advantage that the attacker has is that he or she need only find a single weakness, while the designer must find and eliminate all weaknesses to achieve perfect security.
 
 ---
-#7
+# 7
 There is a natural tendency on the part of users and system managers to perceive little benefit from security investment until a security failure occurs.
 
 ---
-#8
+# 8
 Security requires regular, even constant, monitoring, and this is difficult in today’s short-term, overloaded environment.
 
 ---
@@ -156,7 +156,7 @@ Security requires regular, even constant, monitoring, and this is difficult in t
 Security is still too often an afterthought to be incorporated into a system after the design is complete rather than being an integral part of the design process.
 
 ---
-#10 
+# 10 
 Many users and even security administrators view strong security as an impediment to efficient and user-friendly operation of an information system or use of information.
 
 ---
