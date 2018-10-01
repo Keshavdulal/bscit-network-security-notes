@@ -19,7 +19,7 @@ BTEC Faculty @SNC -->
 
 ---
 # Why do we need
-#[fit] Network Security ?
+# [fit] Network Security ?
 
 <!-- --- -->
 <!-- ![](./images/mcaffee.mp4) -->
@@ -32,11 +32,11 @@ BTEC Faculty @SNC -->
 - Goal - In this age of universal electronic connectivity, viruses and hackers, electronic eavesdropping and electronic fraud, security is paramount. This course provides a practical survey of the principles and practice of network security.
 
 ---
-#Course Content
+# Course Content
 ### 8 Chapters - 45 hrs
 
 ---
-#Course Content
+# Course Content
 1. Introduction
 2. [Key Management and Distribution](https://github.com/Keshavdulal/bscit-network-security-notes/blob/master/bscit-ns-u2-key-mgmt.md)
 3. [User Authentication Protocols](https://github.com/Keshavdulal/bscit-network-security-notes/blob/master/bscit-ns-u3-user-auth.md)
@@ -47,7 +47,7 @@ BTEC Faculty @SNC -->
 8. [Cyber Security](https://github.com/Keshavdulal/bscit-network-security-notes/blob/master/bscit-ns-u8-cybersecurity.md)
 
 ---
-##Unit 1 - Introduction to Network Security
+## Unit 1 - Introduction to Network Security
 1. Computer Security Concepts
 1. The OSI Security Architecture
     - Security Attacks
@@ -74,7 +74,7 @@ BTEC Faculty @SNC -->
 > by William Stallings & Prentice Hall
 
 ---
-#CIA TRIAD
+# CIA TRIAD
 It is a model designed to guide policies for information security within an organization.
 ## Confidentiality
 ## Integrity
