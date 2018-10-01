@@ -182,12 +182,12 @@ Many users and even security administrators view strong security as an impedimen
 Any action that compromises the security of information owned by an organization.
 
 ---
-# Security Attacks 🎯
+## Security Attacks 🎯
 - Passive Attacks
 - Active Attacks
 
 ---
-# Security Attacks
+### Security Attacks
 1. Passive Attacks
 - A passive attack attempts to learn or make use of information from the system but does not affect system or its  resources.
 - Difficult to detect as they do not involve alteration of data.
